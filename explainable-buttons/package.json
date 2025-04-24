@@ -1,0 +1,40 @@
+{
+  "name": "explainable-buttons",
+  "version": "1.0.0",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "postinstall": "echo 'Note: Please install sass if you want to use SCSS styles.'"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "sass": "^1.70.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "react",
+    "explainable",
+    "buttons",
+    "component"
+  ],
+  "author": "Torben Gabriel",
+  "license": "MIT"
+}

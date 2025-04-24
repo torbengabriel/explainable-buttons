@@ -1,0 +1,12 @@
+{
+    "name": "explainable-buttons-root",
+    "private": true,
+    "version": "0.0.0",
+    "workspaces": [
+        "explainable-buttons",
+        "playground"
+    ],
+    "devDependencies": {
+        "@types/react-dom": "^18.3.6"
+    }
+}
